@@ -1,0 +1,81 @@
+body
+{
+	background-image: url("bg/BGB.png");
+	font: Verdana;
+	font-size: 34;
+	color:white;
+}
+
+h1
+{
+	width: 750px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#menu
+{
+	width: 750px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #32a838;
+	color: white;
+	margin-top: 15px;
+	padding:10px;
+}
+
+.menustyle
+{
+	float: left;
+	min-width: 50px;
+	height: 25px;
+	font-size: 25px;
+	padding: 10px;
+	border-right: 1px dotted white;
+}
+
+.menustyle:hover
+{
+	background-color: #1e5e21;
+	cursor: pointer
+}
+
+.menustyle2
+{
+	float: left;
+	min-width: 50px;
+	height: 25px;
+	font-size: 25px;
+	padding: 10px;
+}
+
+.discord
+{
+	margin-top: 7px;
+	float: right;
+	margin-right: 280px;
+}
+
+a:link
+{
+	color:white;
+	text-decoration: none;
+}
+
+a:visited
+{
+	color:white;
+	text-decoration: none;
+}
+
+#ss1
+{
+	margin-top: 7px;
+	margin-left: 285px;
+}
+
+#ss2
+{
+	margin-top: 9px;
+	margin-left: 285px;
+}
