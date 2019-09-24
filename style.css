@@ -79,3 +79,16 @@ a:visited
 	margin-top: 9px;
 	margin-left: 285px;
 }
+
+#footer
+{
+	width: 390px;
+	margin-left: 285px;
+	margin-right: auto;
+	background-color: #32a838;
+	color: white;
+	margin-top: 15px;
+	padding:10px;
+	font-size: 12px;
+	text-align: center;
+}
