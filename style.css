@@ -79,8 +79,7 @@ a:link
     height: 85%;
     width: 85%;
     margin-left: 7.5%;
-    background-color: #919191;
-    opacity: 0.9;
+    background-color: #919191df;
 }
 
 .discord iframe
@@ -133,6 +132,7 @@ a:link
     margin-top: 20px;
     margin-right: 2%;
     color: white;
+    opacity: 0.9;
 }
 
 .aboutusl
@@ -144,4 +144,12 @@ a:link
     text-align: center;
     font-size: 30px;
     list-style: none;
+}
+
+.map
+{
+    /*border: solid 2px white; */
+    color: white;
+    font-size: 46px;
+    text-align: center;
 }
