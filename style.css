@@ -157,6 +157,16 @@
         display: none;
     }
 
+    .discordbutton
+    {
+        display: none;
+    }
+
+    .donatebutton
+    {
+        display: none;
+    }
+
     .map
     {
        /*border: solid 2px white; */
@@ -253,7 +263,7 @@
         margin-right: auto;
         margin-left: auto;
         margin-top: 10px;
-        height: 2000px;
+        height: 2175px;
         width: 80%;
         background-color: #919191df;
     }
@@ -266,6 +276,13 @@
         display: table;
         width: 80%;
         height: 450px;
+    }
+
+    .space
+    {
+        height: 20px;
+        width: 80%;
+        margin: auto;
     }
 
     .donators
@@ -342,6 +359,32 @@
         text-align: center;
         font-size: 30px;
         list-style: none;
+    }
+
+    .discordbutton
+    {
+        height: 50px;
+        width: 80%;
+        background-color: #1c0083;
+        margin: auto;
+        margin-top: 20px;
+        color: white;
+        list-style: none;
+        text-align: center;
+        font-size: 30px;
+    }
+
+    .donatebutton
+    {
+        height: 50px;
+        width: 80%;
+        background-color: #004d04;
+        margin: auto;
+        margin-top: 20px;
+        color: white;
+        list-style: none;
+        text-align: center;
+        font-size: 30px;
     }
 
     .map
