@@ -30,6 +30,16 @@
         margin: 0 auto;
     }
 
+    #mobilemenu
+    {
+        display: none;
+    }
+
+    #navbutton
+    {
+        display: none;
+    }
+
     .logo
     {
         height: 100%;
@@ -115,7 +125,7 @@
     {
         height: 39.6px;
         width: 100%;
-        background: rgb(0, 116, 50);
+        background-color: rgb(0, 114, 49);
         color: white;
         text-align: center;
         font-size: 30px;
@@ -125,7 +135,7 @@
     {
         height: 39.6px;
         width: 80%;
-        background-color: rgb(0, 116, 50);
+        background-color: rgb(0, 114, 49);
         margin-top: 1.5%;
         margin-left: 10%;
         text-align: center;
@@ -168,6 +178,11 @@
     }
 
     .donatebutton
+    {
+        display: none;
+    }
+
+    .playersbutton
     {
         display: none;
     }
@@ -219,6 +234,39 @@
         height: 100%;
         display: block;
         margin: 0 auto;
+    }
+
+    #mobilemenu
+    {
+        display: none;
+        position: absolute;
+        background-color: rgb(48, 48, 48);
+        width: 100%;
+        height: 300px;
+    }
+
+    #navbutton
+    {
+        display: block;
+        float: left;
+        margin-left: 15%;
+    }
+
+    #navbutton button
+    {
+        display: table;
+        width: 100%;
+        height: 100%;
+        background: none;
+        border: none;
+    }
+
+    #navbutton i
+    {
+        display: table-cell;
+        font-size: 34px;
+        vertical-align: middle;
+        color: white;
     }
 
     .logo
@@ -275,7 +323,7 @@
         margin-right: auto;
         margin-left: auto;
         margin-top: 10px;
-        height: 2175px;
+        height: 2030px;
         width: 80%;
         background-color: #919191df;
     }
@@ -311,7 +359,7 @@
     {
         height: 30px;
         width: 100%;
-        background: rgb(0, 116, 50);
+        background-color: rgb(0, 114, 49);
         color: white;
         text-align: center;
         font-size: 20px;
@@ -321,7 +369,7 @@
     {
         height: 39.6px;
         width: 80%;
-        background-color: rgb(0, 116, 50);
+        background-color: rgb(0, 114, 49);
         margin-top: 1.5%;
         margin-left: 10%;
         text-align: center;
@@ -384,9 +432,16 @@
     {
         height: 50px;
         width: 80%;
-        background-color: #1c0083;
+        background-color: #5639c0;
         margin: auto;
         margin-top: 20px;
+        display: table;
+    }
+
+    .discordbutton a
+    {
+        display: table-cell;
+        vertical-align: middle;
         color: white;
         list-style: none;
         text-align: center;
@@ -397,9 +452,36 @@
     {
         height: 50px;
         width: 80%;
-        background-color: #004d04;
+        background-color: #006905;
         margin: auto;
         margin-top: 20px;
+        display: table;
+    }
+
+    .donatebutton a
+    {
+        display: table-cell;
+        vertical-align: middle;
+        color: white;
+        list-style: none;
+        text-align: center;
+        font-size: 24px;
+    }
+
+    .playersbutton
+    {
+        height: 50px;
+        width: 80%;
+        background-color: #1fb891;
+        margin: auto;
+        margin-top: 20px;
+        display: table;
+    }
+
+    .playersbutton a
+    {
+        display: table-cell;
+        vertical-align: middle;
         color: white;
         list-style: none;
         text-align: center;

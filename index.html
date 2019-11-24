@@ -4,7 +4,9 @@
         <link href="https://fonts.googleapis.com/css?family=Quicksand&display=swap&subset=latin-ext" rel="stylesheet">
         <link rel="shortcut icon" type="image/png" href="icon.png">
         <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="css/fontello.css">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <script src="menu.js"></script>
     </head>
     <body>
         <div class="header">
@@ -14,14 +16,29 @@
                         Futrzasta Dolina
                     </h1>
                 </div>
+                <div id="navbutton">
+                    <button onclick="togglemenu()"><i class='icon-menu'></i></button>
+                </div>
                 <div class="nav">
                 <ul class="navigation">
-                    <a href="index"><li>Home</li></a>
                     <a href="https://discord.gg/33Rf4C7"><li>Discord</li></a>
                     <a href="https://craftserve.pl/s/676400/payments"><li>Donate</li></a>
                     <a href="map"><li>Map</li></a>
+                    <a href="players"><li>Hall of Fame</li></a>
                 </ul>
                 </div>
+            </div>
+        </div>
+        <div id="mobilemenu">
+            
+            <div class="discordbutton">
+                <a href="https://discord.gg/33Rf4C7"><li>Join our Discord</li></a>
+            </div>
+            <div class="donatebutton">
+                <a href="https://craftserve.pl/s/676400/payments"><li>Support our server</li></a>
+            </div>
+            <div class="playersbutton">
+                <a href="players"><li>Hall of Fame</li></a>
             </div>
         </div>
         <div class="container">
@@ -92,13 +109,6 @@
                         <a><li>Map</li></a>
                     </div>
                     <iframe src="https://craftserve.pl/s/676400/map?widget"></iframe>
-                </div>
-
-                <div class="discordbutton">
-                    <a href="https://discord.gg/33Rf4C7"><li>Join our Discord</li></a>
-                </div>
-                <div class="donatebutton">
-                    <a href="https://craftserve.pl/s/676400/payments"><li>Support our server</li></a>
                 </div>
             </div>
         </div>
