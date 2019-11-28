@@ -675,7 +675,7 @@
         margin: auto;
         margin-top: 15px;
         height: 50px;
-        width: 350px;
+        width: 100%;
         background: #000;
         border-radius: 15px;
     }
@@ -683,7 +683,7 @@
     .dp-status-on
     {
         height: 100%;
-        width: 65px;
+        width: 19%;
         background: #76ff37;
         border-top-left-radius: 15px;
         border-bottom-left-radius: 15px;
@@ -692,7 +692,7 @@
     .dp-status-off
     {
         height: 100%;
-        width: 65px;
+        width: 19%;
         background: #ff3737;
         border-top-left-radius: 15px;
         border-bottom-left-radius: 15px;
@@ -701,7 +701,7 @@
     .dp-status-wip
     {
         height: 100%;
-        width: 65px;
+        width: 19%;
         background: #4524ff;
         border-top-left-radius: 15px;
         border-bottom-left-radius: 15px;
@@ -710,7 +710,7 @@
     .dp-icon
     {
         height: 100%;
-        width: 60px;
+        width: 93%;
         background: #ffffff;
         float: left;
         border-top-left-radius: 15px;
@@ -730,6 +730,6 @@
         list-style: none;
         text-align: center;
         padding-top: 10px;
-        font-size: 25px;
+        font-size: 20px;
     }
 }
