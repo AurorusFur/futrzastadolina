@@ -203,6 +203,126 @@
         height: 100%;
     }
 
+    .content h1
+    {
+        color: white;
+        text-align: center;
+    }
+
+    #team
+    {
+        margin: auto;
+        width: 90%;
+        height: 210px;
+        border-bottom: solid 2px #78a2ff;
+    }
+
+    .team-box
+    {
+        float: left;
+        margin-left: 20%;
+        width: 20%;
+        height: 200px;
+    }
+
+    .team-mem
+    {
+        margin: auto;
+        width: 150px;
+        height: 150px;
+        border-radius: 85px;
+        background: #f5f5f5;
+    }
+
+    .team-mem img
+    {
+        width: 100%;
+        height: 100%;
+        border-radius: 85px;
+    }
+
+    .team-mem-desc
+    {
+        text-align: center;
+        font-size: 20px;
+        color: white;
+        cursor: default;
+    }
+
+    #datapacks
+    {
+        margin: auto;
+        width: 90%;
+        color: white;
+        text-align: center;
+        padding-bottom: 10px;
+        border-bottom: solid 2px #78a2ff;
+    }
+
+    .datapack
+    {
+        margin: auto;
+        margin-top: 15px;
+        height: 50px;
+        width: 450px;
+        background: #000;
+        border-radius: 15px;
+    }
+
+    .dp-status-on
+    {
+        height: 100%;
+        width: 65px;
+        background: #76ff37;
+        border-top-left-radius: 15px;
+        border-bottom-left-radius: 15px;
+    }
+    
+
+    .dp-status-off
+    {
+        height: 100%;
+        width: 65px;
+        background: #ff3737;
+        border-top-left-radius: 15px;
+        border-bottom-left-radius: 15px;
+    }
+
+    .dp-status-wip
+    {
+        height: 100%;
+        width: 65px;
+        background: #4524ff;
+        border-top-left-radius: 15px;
+        border-bottom-left-radius: 15px;
+    }
+
+    .dp-icon
+    {
+        height: 100%;
+        width: 60px;
+        background: #ffffff;
+        float: left;
+        border-top-left-radius: 15px;
+        border-bottom-left-radius: 15px;
+    }
+
+    .dp-text
+    {
+        width: 390px;
+        float: right;
+        display: table;
+        cursor: default;
+    }
+
+    .dp-text a
+    {
+        display: table-cell;
+        list-style: none;
+        text-align: center;
+        padding-top: 10px;
+        font-size: 25px;
+    }
 }
 
 @media only screen and (max-width:500px)
@@ -505,5 +625,111 @@
         height: 100%;
     }
 
-}
+    .content h1
+    {
+        color: white;
+        text-align: center;
+    }
+    
+    #team
+    {
+        border-bottom: solid 2px #78a2ff;
+        padding-bottom: 10px;
+    }
 
+    .team-mem
+    {
+        display: block;
+        margin: auto;
+        width: 150px;
+        height: 150px;
+        border-radius: 85px;
+        background: #f5f5f5;
+    }
+
+    .team-mem img
+    {
+        width: 100%;
+        height: 100%;
+        border-radius: 85px;
+    }
+
+    .team-mem-desc
+    {
+        text-align: center;
+        font-size: 20px;
+        color: white;
+        cursor: default;
+    }
+
+    #datapacks
+    {
+        color: white;
+        text-align: center;
+        padding-bottom: 10px;
+        border-bottom: solid 2px #78a2ff;
+    }
+
+    .datapack
+    {
+        margin: auto;
+        margin-top: 15px;
+        height: 50px;
+        width: 350px;
+        background: #000;
+        border-radius: 15px;
+    }
+
+    .dp-status-on
+    {
+        height: 100%;
+        width: 65px;
+        background: #76ff37;
+        border-top-left-radius: 15px;
+        border-bottom-left-radius: 15px;
+    }
+
+    .dp-status-off
+    {
+        height: 100%;
+        width: 65px;
+        background: #ff3737;
+        border-top-left-radius: 15px;
+        border-bottom-left-radius: 15px;
+    }
+
+    .dp-status-wip
+    {
+        height: 100%;
+        width: 65px;
+        background: #4524ff;
+        border-top-left-radius: 15px;
+        border-bottom-left-radius: 15px;
+    }
+
+    .dp-icon
+    {
+        height: 100%;
+        width: 60px;
+        background: #ffffff;
+        float: left;
+        border-top-left-radius: 15px;
+        border-bottom-left-radius: 15px;
+    }
+
+    .dp-text
+    {
+        width: 80%;
+        float: right;
+        display: table;
+    }
+
+    .dp-text a
+    {
+        display: table-cell;
+        list-style: none;
+        text-align: center;
+        padding-top: 10px;
+        font-size: 25px;
+    }
+}
