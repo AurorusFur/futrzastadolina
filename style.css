@@ -323,6 +323,42 @@
         padding-top: 10px;
         font-size: 25px;
     }
+
+    .donate-box
+    {
+        float: left;
+        margin-left: 25%;
+        margin-top: 15px;
+        width: 50%;
+        height: 350px;
+        background: rgb(17, 180, 255);
+        border-radius: 32px;
+    }
+
+    .donate-box button
+    {
+        margin-top: 40px;
+        margin-left: 30%;
+        width: 40%;
+        height: 75px;
+        background: rgb(104, 207, 255);
+        border-radius: 32px;
+        color: white;
+        border: none;
+    }
+
+    .donate-box input
+    {
+        margin-top: 45px;
+        margin-left: 17%;
+        width: 65%;
+        height: 45px;
+        background: rgb(104, 207, 255);
+        border-radius: 16px;
+        font-size: 24px;
+        color: white;
+        border: white solid 2px;
+    }
 }
 
 @media only screen and (max-width:500px)
