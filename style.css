@@ -330,9 +330,31 @@
         margin-left: 25%;
         margin-top: 15px;
         width: 50%;
-        height: 350px;
+        height: 300px;
         background: rgb(17, 180, 255);
         border-radius: 32px;
+    }
+
+    .donate-box h1
+    {
+        padding-top: 10px;
+    }
+
+    .donate-box h1:hover
+    {
+        cursor: default;
+    }
+
+    .donate-box h2:hover
+    {
+        cursor: default;
+    }
+
+    .donate-box h2
+    {
+        padding-top: 5px;
+        color: blue;
+        text-align: center;
     }
 
     .donate-box button
@@ -344,12 +366,13 @@
         background: rgb(104, 207, 255);
         border-radius: 32px;
         color: white;
+        font-size: 32px;
         border: none;
     }
 
     .donate-box input
     {
-        margin-top: 45px;
+        margin-top: 40px;
         margin-left: 17%;
         width: 65%;
         height: 45px;
@@ -358,6 +381,33 @@
         font-size: 24px;
         color: white;
         border: white solid 2px;
+        text-align: center;
+    }
+
+    .donate-box-direct
+    {
+        display: table;
+        float: left;
+        margin-left: 25%;
+        margin-top: 15px;
+        width: 50%;
+        height: 100px;
+        background: rgb(0, 201, 17);
+        border-radius: 32px;
+    }
+
+    .donate-box-direct a
+    {
+        display: table-cell;
+        vertical-align: middle;
+        text-align: center;
+        color: white;
+        font-size: 42px;
+    }
+
+    .donate-box-direct a:hover
+    {
+        cursor: pointer;
     }
 }
 
@@ -646,6 +696,26 @@
         font-size: 24px;
     }
 
+    .homebutton
+    {
+        height: 50px;
+        width: 80%;
+        background-color: #1abd22;
+        margin: auto;
+        margin-top: 20px;
+        display: table;
+    }
+
+    .homebutton a
+    {
+        display: table-cell;
+        vertical-align: middle;
+        color: white;
+        list-style: none;
+        text-align: center;
+        font-size: 24px;
+    }
+
     .map
     {
         border: solid 2px white;
@@ -767,5 +837,78 @@
         text-align: center;
         padding-top: 10px;
         font-size: 20px;
+    }
+
+    .donate-box
+    {
+        float: left;
+        margin-left: 2.5%;
+        margin-top: 15px;
+        width: 95%;
+        height: 300px;
+        background: rgb(17, 180, 255);
+        border-radius: 32px;
+    }
+
+    .donate-box h1
+    {
+        padding-top: 10px;
+        font-size: 32px;
+    }
+
+    .donate-box h2
+    {
+        font-size: 15px;
+        padding-top: 2px;
+        color: blue;
+        text-align: center;
+    }
+
+    .donate-box button
+    {
+        margin-top: 20px;
+        margin-left: 10%;
+        width: 80%;
+        height: 75px;
+        background: rgb(104, 207, 255);
+        border-radius: 32px;
+        color: white;
+        font-size: 32px;
+        border: none;
+    }
+
+    .donate-box input
+    {
+        margin-top: 40px;
+        margin-left: 17%;
+        width: 65%;
+        height: 45px;
+        background: rgb(104, 207, 255);
+        border-radius: 16px;
+        font-size: 24px;
+        color: white;
+        border: white solid 2px;
+        text-align: center;
+    }
+
+    .donate-box-direct
+    {
+        display: table;
+        float: left;
+        margin-left: 2.5%;
+        margin-top: 15px;
+        width: 95%;
+        height: 100px;
+        background: rgb(0, 201, 17);
+        border-radius: 32px;
+    }
+
+    .donate-box-direct a
+    {
+        display: table-cell;
+        vertical-align: middle;
+        text-align: center;
+        color: white;
+        font-size: 42px;
     }
 }
