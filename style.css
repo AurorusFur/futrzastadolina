@@ -103,6 +103,15 @@
         background-color: #919191df;
     }
 
+    .container2
+    {
+        margin-top: 10px;
+        height: 600px;
+        width: 85%;
+        margin-left: 7.5%;
+        background-color: #919191df;
+    }
+
     .discord iframe
     {
         margin-right: 2.2%;
@@ -324,67 +333,7 @@
         font-size: 25px;
     }
 
-    .donate-box
-    {
-        float: left;
-        margin-left: 25%;
-        margin-top: 15px;
-        width: 50%;
-        height: 300px;
-        background: rgb(17, 180, 255);
-        border-radius: 32px;
-    }
-
-    .donate-box h1
-    {
-        padding-top: 10px;
-    }
-
-    .donate-box h1:hover
-    {
-        cursor: default;
-    }
-
-    .donate-box h2:hover
-    {
-        cursor: default;
-    }
-
-    .donate-box h2
-    {
-        padding-top: 5px;
-        color: blue;
-        text-align: center;
-    }
-
-    .donate-box button
-    {
-        margin-top: 40px;
-        margin-left: 30%;
-        width: 40%;
-        height: 75px;
-        background: rgb(104, 207, 255);
-        border-radius: 32px;
-        color: white;
-        font-size: 32px;
-        border: none;
-    }
-
-    .donate-box input
-    {
-        margin-top: 40px;
-        margin-left: 17%;
-        width: 65%;
-        height: 45px;
-        background: rgb(104, 207, 255);
-        border-radius: 16px;
-        font-size: 24px;
-        color: white;
-        border: white solid 2px;
-        text-align: center;
-    }
-
-    .donate-box-direct
+    .hosting-donate
     {
         display: table;
         float: left;
@@ -396,7 +345,7 @@
         border-radius: 32px;
     }
 
-    .donate-box-direct a
+    .hosting-donate a
     {
         display: table-cell;
         vertical-align: middle;
@@ -405,7 +354,7 @@
         font-size: 42px;
     }
 
-    .donate-box-direct a:hover
+    .hosting-donate a:hover
     {
         cursor: pointer;
     }
@@ -527,6 +476,16 @@
     }
 
     .container
+    {
+        margin-right: auto;
+        margin-left: auto;
+        margin-top: 10px;
+        height: 2030px;
+        width: 80%;
+        background-color: #919191df;
+    }
+
+    .container2
     {
         margin-right: auto;
         margin-left: auto;
@@ -839,59 +798,7 @@
         font-size: 20px;
     }
 
-    .donate-box
-    {
-        float: left;
-        margin-left: 2.5%;
-        margin-top: 15px;
-        width: 95%;
-        height: 300px;
-        background: rgb(17, 180, 255);
-        border-radius: 32px;
-    }
-
-    .donate-box h1
-    {
-        padding-top: 10px;
-        font-size: 32px;
-    }
-
-    .donate-box h2
-    {
-        font-size: 15px;
-        padding-top: 2px;
-        color: blue;
-        text-align: center;
-    }
-
-    .donate-box button
-    {
-        margin-top: 20px;
-        margin-left: 10%;
-        width: 80%;
-        height: 75px;
-        background: rgb(104, 207, 255);
-        border-radius: 32px;
-        color: white;
-        font-size: 32px;
-        border: none;
-    }
-
-    .donate-box input
-    {
-        margin-top: 40px;
-        margin-left: 17%;
-        width: 65%;
-        height: 45px;
-        background: rgb(104, 207, 255);
-        border-radius: 16px;
-        font-size: 24px;
-        color: white;
-        border: white solid 2px;
-        text-align: center;
-    }
-
-    .donate-box-direct
+    .hosting-donate
     {
         display: table;
         float: left;
