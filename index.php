@@ -23,7 +23,6 @@
                 <ul class="navigation">
                     <a href="https://discord.gg/33Rf4C7"><li>Discord</li></a>
                     <a href="donate"><li>Donate</li></a>
-                    <a href="map"><li>Map</li></a>
                     <a href="players"><li>About Server</li></a>
                 </ul>
                 </div>
@@ -105,13 +104,6 @@
                         <a><li>Info Box</li></a>
                     </div>
                     
-                </div>
-
-                <div class="mapbox">
-                    <div class="mapbox1">
-                        <a><li>Map</li></a>
-                    </div>
-                    <iframe src="http://164.132.27.217:5111/index.html#"></iframe>
                 </div>
             </div>
         </div>

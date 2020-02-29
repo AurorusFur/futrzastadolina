@@ -24,7 +24,6 @@
                         <a href="index"><li>Home</li></a>
                         <a href="https://discord.gg/33Rf4C7"><li>Discord</li></a>
                         <a href="donate"><li>Donate</li></a>
-                        <a href="map"><li>Map</li></a>
                     </ul>
                     </div>
                 </div>

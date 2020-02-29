@@ -23,7 +23,6 @@
                 <ul class="navigation">
                     <a href="index"><li>Home</li></a>
                     <a href="https://discord.gg/33Rf4C7"><li>Discord</li></a>
-                    <a href="map"><li>Map</li></a>
                     <a href="players"><li>About Server</li></a>
                 </ul>
                 </div>
