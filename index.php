@@ -1,8 +1,5 @@
 <html>
     <head>
-    <?php
-        echo "test"
-    ?>
         <title>Futrzasta Dolina</title>
         <link href="https://fonts.googleapis.com/css?family=Quicksand&display=swap&subset=latin-ext" rel="stylesheet">
         <link rel="shortcut icon" type="image/png" href="icon.png">

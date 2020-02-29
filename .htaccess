@@ -1,3 +1,7 @@
 RewriteEngine on
-RewriteRule index index.html
-RewriteRule map map.html
+RewriteBase /
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+
+RewriteRule ^(.*)$ index.php
