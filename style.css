@@ -340,30 +340,88 @@
         font-size: 25px;
     }
 
-    .hosting-donate
+    .donate-box
     {
-        display: table;
-        float: left;
-        margin-left: 25%;
-        margin-top: 15px;
-        width: 50%;
-        height: 100px;
-        background: rgb(0, 201, 17);
-        border-radius: 32px;
+        margin: 0 auto 0 auto;
+        width: 80%;
+        height: 500px;
+        background-color: #1abd22;
     }
 
-    .hosting-donate a
+    .donate-box-top
     {
-        display: table-cell;
-        vertical-align: middle;
+        height: 50px;
+        width: 100%;
+        background-color: #00a008;
         text-align: center;
-        color: white;
-        font-size: 42px;
+        font-size: 34px;
     }
 
-    .hosting-donate a:hover
+    .donate-box-top a
     {
-        cursor: pointer;
+        color: white;
+    }
+
+    .donate-box-bot
+    {
+        width: 100%;
+        height: 450px;
+        margin: 0 auto 0 auto;
+    }
+
+    .donate-box-bot form
+    {
+        margin: 0 auto 0 auto;
+        width: 70%;
+    }
+
+    .donate-box-bot a
+    {
+        text-align: center;
+        font-size: 32px;
+        color: white;
+    }
+
+    .donate-box-bot input
+    {
+        background-color: #00a008;
+        border: 2px solid #008006;
+        color: white;
+        width: 100%;
+        height: 60px;
+        text-align: center;
+        font-size: 32px;
+    }
+
+    .donate-box-bot button
+    {
+        margin-top: 10px;
+    }
+
+    .donate-box-bot form button
+    {
+        width: 30%;
+        height: 90px;
+        border: none;
+        background-color: #008006;
+        font-size: 24px;
+        color: white;
+    }
+
+    .buttons
+    {
+        margin: 0 auto 0 auto;
+        width: 70%;
+    }
+
+    .buttons button
+    {
+        width: 30%;
+        height: 90px;
+        border: none;
+        background-color: #008006;
+        font-size: 24px;
+        color: white;
     }
 }
 

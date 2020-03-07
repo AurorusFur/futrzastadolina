@@ -21,9 +21,9 @@
                     </div>
                     <div class="nav">
                     <ul class="navigation">
-                        <a href="index"><li>Home</li></a>
+                        <a href="index.php"><li>Home</li></a>
                         <a href="https://discord.gg/33Rf4C7"><li>Discord</li></a>
-                        <a href="donate"><li>Donate</li></a>
+                        <a href="donate.php"><li>Donate</li></a>
                     </ul>
                     </div>
                 </div>
@@ -34,13 +34,13 @@
                     <a href="https://discord.gg/33Rf4C7"><li>Join our Discord</li></a>
                 </div>
                 <div class="donatebutton">
-                    <a href="donate"><li>Support our server</li></a>
+                    <a href="donate.php"><li>Support our server</li></a>
                 </div>
                 <div class="playersbutton">
-                    <a href="players"><li>About Server</li></a>
+                    <a href="players.php"><li>About Server</li></a>
                 </div>
                 <div class="homebutton">
-                        <a href="index"><li>Home</li></a>
+                        <a href="index.php"><li>Home</li></a>
                 </div>
             </div>
         <div class="container">

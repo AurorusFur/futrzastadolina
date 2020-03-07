@@ -7,5 +7,5 @@ RewriteCond %{REQUEST_FILENAME} !-d
 
 RewriteRule ^(.*)$ index.php
 
-Redirect /players /players.php
-Redirect /donate /donate.php
+RewriteRule /players /players.php
+RewriteRule /donate /donate.php
