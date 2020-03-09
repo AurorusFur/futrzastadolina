@@ -15,7 +15,7 @@
             }
 
             function psc(){
-                document.getElementById("donate-box-top").innerHTML = '<a>PaySafeCard Donate</a>';
+                document.getElementById("donate-box-top").innerHTML = '<a>PSC Donate</a>';
                 document.getElementById("donate-box-bot").innerHTML = '<div class="buttons"> <button onclick="paypal()">Paypal</button> <button onclick="psc()">PaySafeCard</button> <button onclick="dotpay()">Dotpay</button> </div> <form action="psc"  method="POST"> <a>Donate in PLN</a> <input type="number"> <br> <a>Your Nickname</a> <br> <input type="text"> <br> <button>Donate</button> </form>';
             }
 
@@ -60,8 +60,8 @@
                     <a href="index.php"><li>Home</li></a>
                 </div>
         </div>
-        <div class="space"></div>
-        <div class="container">
+        <div class="container2">
+            <div class="space" style="height: 20px;"></div>
             <div class="donate-box">
                 <div class="donate-box-top" id="donate-box-top">
                     <a>Donate</a>

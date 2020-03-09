@@ -48,63 +48,56 @@
                     <div class="space">
 
                     </div>
-                <div class="donators">
-                    <div class="donatorsl">
-                        <a>Top Donators</a>
-                        </div>
-
-                    <div class="donatorstl">
-                        <a><li>1.HansSan +20zł</li></a>
-                    </div>
-
-                    <div class="donatorstl">
-                            <a><li>2.Neyrin Starfall +5$</li></a>
-                        </div>        
-
-                     <div class="donatorstl">
-                           <a><li>3.Aneo302 +20zł</li></a>
-                      </div>
-                            
-                    <div class="donatorstl">
-                            <a><li>4.zxxlpl +20zł</li></a>
-                        </div>     
-
-                    <div class="donatorstl">
-                            <a><li>5.None</li></a>
-                        </div>   
-
-                    <div class="donatorstl">
-                            <a><li>6.None</li></a>
-                        </div>
+                    <div class="row">
+                        <div class="donators">
+                            <div class="donatorsl">
+                                <a>Last Donators</a>
+                                </div>
         
-                    <div class="donatorstl">
-                            <a><li>7.None</li></a>
-                    </div>      
-
-                    <div class="donatorstl">
-                            <a><li>8.None</li></a>
-                        </div>
+                            <div class="donatorstl">
+                                <a><li>1.HansSan +20zł</li></a>
+                            </div>
+        
+                            <div class="donatorstl">
+                                    <a><li>2.Neyrin Starfall +5$</li></a>
+                                </div>        
+        
+                             <div class="donatorstl">
+                                   <a><li>3.Aneo302 +20zł</li></a>
+                              </div>
                                     
-                    <div class="donatorstl">
-                            <a><li>9.None</li></a>
-                        </div>     
+                            <div class="donatorstl">
+                                    <a><li>4.zxxlpl +20zł</li></a>
+                                </div>                                                                        
+                        </div>
         
-                    <div class="donatorstl">
-                            <a><li>10.None</li></a>
-                        </div>   
-                                                                                                
-                </div>
-
-                <div class="discord">
-                <iframe src="https://discordapp.com/widget?id=611668961938898975&theme=dark" allowtransparency="true" frameborder="0"></iframe>
-                </div>
-                
-                <div class="aboutus">
-                    <div class="aboutusl">
-                        <a><li>Info Box</li></a>
+                        <div class="topdonators">
+                            <div class="topdonatorsl">
+                                <a>Top Donators</a>
+                                </div>
+        
+                            <div class="topdonatorstl">
+                                <a><li>1.HansSan +20zł</li></a>
+                            </div>
+        
+                            <div class="topdonatorstl">
+                                    <a><li>2.Neyrin Starfall +5$</li></a>
+                                </div>        
+        
+                             <div class="topdonatorstl">
+                                   <a><li>3.Aneo302 +20zł</li></a>
+                              </div>
+                                    
+                            <div class="topdonatorstl">
+                                    <a><li>4.zxxlpl +20zł</li></a>
+                                </div>                                                                        
+                        </div>
                     </div>
-                    
-                </div>
+                    <div class="row">
+                        <div class="discord">
+                            <iframe src="https://discordapp.com/widget?id=611668961938898975&theme=dark" allowtransparency="true" frameborder="0"></iframe>
+                            </div>
+                    </div>
             </div>
         </div>
     </body>
